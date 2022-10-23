@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+
+	int A, B, i = 0;
+	cin >> A;
+	cin >> B;
+
+	if (A == 0) {
+
+		for (i = A + 2; i < B; i += 2)
+		{
+
+			cout << i << " ";
+
+		}
+
+	}
+
+	else if (A % 2 == 0) {
+
+		for ( i = A; i < B; i += 2)
+		{
+
+			cout << i << " ";
+
+		} 
+
+	}
+
+	else {
+
+		for (i = A + 1; i < B; i += 2)
+		{
+
+			cout << i << " ";
+		}
+
+	}
+
+
+}
